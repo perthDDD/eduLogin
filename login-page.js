@@ -7,9 +7,9 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "web_dev") {
+    if (username === "perthZion" && password === "perthcityoflight") {
         alert("You have successfully logged in.");
-        window.location.href = "https://funky-wave-252.notion.site/TGW-Education-eb3b662e83444e56a9a3ca05cb287870?pvs=4";
+        window.location.href = "https://funky-wave-252.notion.site/EDUZION-f7f7b1afe2c349a988b6537e5b503c36?pvs=4";
     } else {
         loginErrorMsg.style.opacity = 1;
     }
